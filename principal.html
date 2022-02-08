@@ -53,29 +53,30 @@
                 <div><span class="material-icons fs-1">storefront</span></div>
                 MI TIENDA OUTLET
             </div>
-            <div class="dropdown mx-4">
+            <!--- Para poner el boton a la derecha activar displ-flex y luego justif-cont-end --->
+            <div class="dropdown mx-4 d-flex justify-content-end">
                 <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                     data-bs-toggle="dropdown" aria-expanded="false">
                     <span class="material-icons">menu_open</span>
                     Menú
                 </a>
                 <ul class="dropdown-menu w-75" aria-labelledby="dropdownMenuLink">
-                    <a href="#" class="list-group-item list-group-item-action bg-primary second-text active">
+                    <a href="#" class="list-group-item list-group-item-action bg-primary second-text active border-bottom-0">
                         <span class="material-icons">dashboard</span>
                         Dashboard </a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold border-bottom-0">
                         <span class="material-icons">face</span>
                         Usuarios </a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold border-bottom-0">
                         <span class="material-icons">inventory_2</span>
                         Productos </a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold border-bottom-0">
                         <span class="material-icons">trending_up</span>
                         Graficos </a>
                     <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
                         <span class="material-icons">summarize</span>
                         Informes </a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <a href="#" class="list-group-item bg-transparent second-text fw-bold border-bottom-0">
                         <span class="material-icons">logout</span>
                         Cerrar sesión </a>
                 </ul>
@@ -90,22 +91,22 @@
             <h2 class="my-3">Dashboard</h2>
             <!--- Usamos display Flex - Wrap para mediano-peq // para Large: ROW -->
             <div class="d-flex flex-wrap flex-lg-row">
-                <div class="col card shadow m-3 callout-info datos">
+                <div class="col card shadow m-2 callout-info datos m-lg-3">
                     <div class="card-body">
                         <p class="fw-bold text-info"> INGRESOS (Anual)</p>
                         <h3>1300,00 €</h3>
                     </div>
                 </div>
-                <div class="col card shadow m-3 callout-primary datos">
+                <div class="col card shadow m-2 callout-primary datos m-lg-3">
                     <div class="card-body">
                         <p class="fw-bold text-primary">GASTOS (Anual)</p>
                         <h3>1000,00 €</h3>
                     </div>
                 </div>
-                <div class="col card shadow m-3 callout-success datos">
+                <div class="col card shadow m-2 callout-success datos m-lg-3">
                     <div class="card-body">
                         <p class="fw-bold text-success">BENEFICIOS (Anual)</p>
-                        <h3>300,00 </h3>
+                        <h3>300,00 €</h3>
                     </div>
                 </div>
             </div>
@@ -127,7 +128,7 @@
                                     <p class="ventas text-primary text-center">1232</h5>
                                     <h5>299423</h5>
                                     <p>Xiaomi Redmi Note 9 Pro 6/64GB Verde Tropical</p>
-                                    <p>250,25 €</p>
+                                    <p class="text-success mx-2 fw-bolder">250,25 €</p>
                                     <p><span class="btn btn-primary rounded-pill">Smartphone</span></p>
                                 </div>
                             </div>
@@ -140,7 +141,7 @@
                                     <p class="ventas text-primary text-center">1000</p>
                                     <h5>414013</h5>
                                     <p>NewSkill Icarus RGB 27" LED Fast IPS QHD 180Hz G-Sync Compatible</p>
-                                    <p>343,98 €</p>
+                                    <p class="text-success mx-2 fw-bolder">343,98 €</p>
                                     <p><span class="btn btn-primary rounded-pill">Monitores</span></p>
                                 </div>
                             </div>
@@ -153,7 +154,7 @@
                                     <p class="ventas text-primary text-center">855</p>
                                     <h5>433507</h5>
                                     <p>Tempest X20W Vigilant Raton Gaming Inalámbrico</p>
-                                    <p>49,99 €</p>
+                                    <p class="text-success mx-2 fw-bolder">49,99 €</p>
                                     <p><span class="btn btn-primary rounded-pill">Periféricos</span></p>
                                 </div>
                             </div>
@@ -165,7 +166,7 @@
                                     <p class="ventas text-primary text-center">711</p>
                                     <h5>258324</h5>
                                     <p>Logitech C920s Pro Webcam</p>
-                                    <p>75,99 €</p>
+                                    <p class="text-success mx-2 fw-bolder">75,99 €</p>
                                     <p><span class="btn btn-primary rounded-pill">Periféricos</span></p>
                                 </div>
                             </div>
@@ -177,7 +178,7 @@
                                     <p class="ventas text-primary text-center">425</p>
                                 <h5>386825</h5>
                                 <p>Tempest Vapor USB 3.0 Ventana RGB Negro</p>
-                                <p>56,99 €</p>
+                                <p class="text-success mx-2 fw-bolder">56,99 €</p>
                                 <p><span class="btn btn-primary rounded-pill">Componentes</span></p>
                                 </div>
                             </div>
